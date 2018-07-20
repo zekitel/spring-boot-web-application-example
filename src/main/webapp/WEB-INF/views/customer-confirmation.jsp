@@ -13,7 +13,7 @@
 </head>
 <body>
 
-The customer firstname and lastname ${customer.firstName} </br>  ${customer.lastName} </br> ${customer.freePasses}
+The customer firstname and lastname ${customer.firstName} </br>  ${customer.lastName} </br> ${customer.freePasses} </br> ${customer.postalCode}
 
 </body>
 </html>
