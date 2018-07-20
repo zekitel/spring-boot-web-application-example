@@ -16,10 +16,12 @@
     First Name:<form:input path="firstName"></form:input>
     Last Name:<form:input path="lastName"></form:input>
     Country:<form:select path="country">
-        <form:options items="${student.countryOptions}"/>
+    <form:options items="${student.countryOptions}"/>
 
 
-    </form:select>
+</form:select>
+    Favorite Language:<form:radiobuttons path="favoriteLanguage" items="${student.favoriteLanguageOptions}"/>
+
 
     <input type="submit" value="Submit">
 </form:form>

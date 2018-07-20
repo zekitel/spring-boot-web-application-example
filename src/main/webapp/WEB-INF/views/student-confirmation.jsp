@@ -13,6 +13,7 @@
 <body>
 The student is confirmation  : ${student.firstName} ${student.lastName}
 Country: ${student.country}
+Language: ${student.favoriteLanguage}
 
 </body>
 </html>
