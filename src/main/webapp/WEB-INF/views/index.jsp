@@ -14,6 +14,7 @@
   <h1>Spring Boot - MVC web application example</h1>
   <hr>
   <a href="/silly/showForm">Zeki tel</a>
+  <a href="/student/showForm">student</a>
   <div class="form">
     <form action="hello" method="get" onsubmit="return validate()">
       <table>
