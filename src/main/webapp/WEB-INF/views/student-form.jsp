@@ -17,6 +17,10 @@
     Last Name:<form:input path="lastName"></form:input>
     Country:<form:select path="country">
     <form:options items="${student.countryOptions}"/>
+    Operating Systems:
+    Linux<form:checkbox path="operatingSystems" value="linux"/>
+    Mac OS<form:checkbox path="operatingSystems" value="macOs"/>
+    MS Windows<form:checkbox path="operatingSystems" value="MS Windows"/>
 
 
 </form:select>
