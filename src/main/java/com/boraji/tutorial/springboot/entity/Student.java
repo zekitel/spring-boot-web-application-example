@@ -1,65 +1,53 @@
 package com.boraji.tutorial.springboot.entity;
 
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
-import java.util.LinkedHashMap;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "student")
 public class Student {
+    @Id
+    @Column(name = "id")
+    private int id;
+
+    @Column(name = "first_name")
     private String firstName;
+
+    @Column(name = "last_name")
     private String lastName;
-    private String country;
-    private String favoriteLanguage;
-    private String[] operatingSystems;
 
-    public String[] getOperatingSystems() {
-        return operatingSystems;
-    }
-
-    public void setOperatingSystems(String[] operatingSystems) {
-        this.operatingSystems = operatingSystems;
-    }
-
-    private LinkedHashMap<String,String> countryOptions;
-    private LinkedHashMap<String,String> favoriteLanguageOptions;
-
-    public LinkedHashMap<String, String> getFavoriteLanguageOptions() {
-        return favoriteLanguageOptions;
-    }
-
-    public void setFavoriteLanguageOptions(LinkedHashMap<String, String> favoriteLanguageOptions) {
-        this.favoriteLanguageOptions = favoriteLanguageOptions;
-    }
-
-    public String getFavoriteLanguage() {
-        return favoriteLanguage;
-    }
-
-    public void setFavoriteLanguage(String favoriteLanguage) {
-        this.favoriteLanguage = favoriteLanguage;
-    }
-
-
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
+    @Column(name = "email")
+    private String email;
 
     public Student(){
-        countryOptions = new LinkedHashMap<>();
-        countryOptions.put("BR","Brazil");
-        countryOptions.put("FR","France");
-        countryOptions.put("DE","Germany");
-        countryOptions.put("IN","India");
-        countryOptions.put("TR","Turkey");
-        favoriteLanguageOptions =new LinkedHashMap<>();
-        favoriteLanguageOptions.put("Java","Java");
-        favoriteLanguageOptions.put("C+","C+");
-        favoriteLanguageOptions.put("Python","Python");
 
+    }
+
+    public Student(String firstName, String lastName, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -78,11 +66,11 @@ public class Student {
         this.lastName = lastName;
     }
 
-    public LinkedHashMap<String, String> getCountryOptions() {
-        return countryOptions;
+    public String getEmail() {
+        return email;
     }
 
-    public void setCountryOptions(LinkedHashMap<String, String> countryOptions) {
-        this.countryOptions = countryOptions;
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
