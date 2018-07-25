@@ -4,9 +4,10 @@ import com.boraji.tutorial.springboot.entity.Student;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.springframework.beans.factory.annotation.Autowired;
 
-public class CreateStudentDemo {
+import java.util.List;
+
+public class ReadStudentDemo {
     public static void main(String[] args) {
 
 
@@ -18,16 +19,17 @@ public class CreateStudentDemo {
         Session session = factory.getCurrentSession();
 
         try{
-            System.out.println("Creating new student object");
-            Student student = new Student("zeki","tel","gmail");
-            Student student2 = new Student("zeki2","tel","gmail");
-            session.beginTransaction();
-            System.out.println("Saving");
-            session.save(student);
-            session.save(student2);
 
-            session.getTransaction().commit();
-            System.out.println("Done");
+            session.beginTransaction();
+
+            //tek obje olarak okuma
+            Student temp2= (Student) session.get(Student.class,2);
+
+            //list halinde okuma
+            List<Student> theStudents = session.createQuery("from Student s where s.lastName='tel'").list();
+
+            System.out.println(theStudents);
+            System.out.println(temp2);
 
         }
         catch (Exception exc){
