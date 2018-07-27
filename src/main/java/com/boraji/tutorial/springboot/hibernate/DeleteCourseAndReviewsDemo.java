@@ -8,7 +8,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class CreateCourseAndReviewsDemo {
+public class DeleteCourseAndReviewsDemo {
     public static void main(String[] args) {
 
 
@@ -25,23 +25,8 @@ public class CreateCourseAndReviewsDemo {
         try{
 
             session.beginTransaction();
-
-
-            Course tempCourse = new Course("4itle");
-            tempCourse.addReview(new Review("Great course loved it."));
-            tempCourse.addReview(new Review("zeki tel"));
-            tempCourse.addReview(new Review("ASDASDASD"));
-
-
-            session.save(tempCourse);
-            Instructor instructor= new Instructor("zeki","tel","emaasd");
-            session.save(instructor);
-            System.out.println("Saving the course");
-            System.out.println(tempCourse);
-            System.out.println(tempCourse.getReviews());
-
-            //Instructor instructor= (Instructor) session.get(Instructor.class,1);
-
+            Course course= (Course) session.get(Course.class,12);
+            session.delete(course);
 
 
 
