@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9d0c977-7e06-4075-9aa4-db5ad12e300a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/DeleteCourseAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/GetCourseAndReviewsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-web-application-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-application-example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/CreateCourseAndReviewsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/CreateCourseAndReviewsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Student.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Instructor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Instructor.java">
+      <file leaf-file-name="hibernateRelationManyToMany.cfg.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernateRelationManyToMany.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -47,10 +43,14 @@
       <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="26" column="139" lean-forward="true" selection-start-line="24" selection-end-line="26" selection-end-column="139" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,74 +59,78 @@
       <file leaf-file-name="CreateCourseAndReviewsDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/CreateCourseAndReviewsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="612">
               <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetCourseAndReviewsDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/GetCourseAndReviewsDemo.java">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteCourseAndReviewsDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/DeleteCourseAndReviewsDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetInstructorCoursesOneToMany.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/GetInstructorCoursesOneToMany.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernateRelationOneToManyUni.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernateRelationOneToManyUni.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Review.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Review.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            <state relative-caret-position="369">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
-                <element signature="e#4211#4212#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteCourseOneToMany.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/DeleteCourseOneToMany.java">
+      <file leaf-file-name="DeleteCoursesDemoManyToMany.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/DeleteCoursesDemoManyToMany.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="374">
+              <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteStudentDemoManyToMany.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/DeleteStudentDemoManyToMany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateCoursesAndStudentsDemoManyToMany.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/CreateCoursesAndStudentsDemoManyToMany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddCoursesDemoManyToMany.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/AddCoursesDemoManyToMany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetCoursesDemoManyToMany.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/GetCoursesDemoManyToMany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLError.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -153,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/controller/SillyController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main-menu.jsp" />
@@ -173,7 +176,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Student2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/TestJDBC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/CreateStudentDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/ReadStudentDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/UpdateStudentDemo.java" />
@@ -195,10 +197,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Instructor.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernateRelationOneToManyUni.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Review.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/CreateCourseAndReviewsDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/GetCourseAndReviewsDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/DeleteCourseAndReviewsDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernateRelationManyToMany.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/CreateCoursesAndStudentsDemoManyToMany.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/AddCoursesDemoManyToMany.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/GetCoursesDemoManyToMany.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/DeleteCoursesDemoManyToMany.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/DeleteStudentDemoManyToMany.java" />
       </list>
     </option>
   </component>
@@ -397,9 +406,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteCourseAndReviewsDemo">
-    <configuration name="CreateCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boraji.tutorial.springboot.hibernate.CreateCourseAndReviewsDemo" />
+  <component name="RunManager" selected="Application.DeleteStudentDemoManyToMany">
+    <configuration name="AddCoursesDemoManyToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boraji.tutorial.springboot.hibernate.AddCoursesDemoManyToMany" />
       <module name="spring-boot-web-application-example" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -409,8 +418,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DeleteCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boraji.tutorial.springboot.hibernate.DeleteCourseAndReviewsDemo" />
+    <configuration name="CreateCoursesAndStudentsDemoManyToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boraji.tutorial.springboot.hibernate.CreateCoursesAndStudentsDemoManyToMany" />
       <module name="spring-boot-web-application-example" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -420,8 +429,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DeleteCourseOneToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boraji.tutorial.springboot.hibernate.DeleteCourseOneToMany" />
+    <configuration name="DeleteCoursesDemoManyToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boraji.tutorial.springboot.hibernate.DeleteCoursesDemoManyToMany" />
       <module name="spring-boot-web-application-example" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -431,8 +440,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="GetCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boraji.tutorial.springboot.hibernate.GetCourseAndReviewsDemo" />
+    <configuration name="DeleteStudentDemoManyToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boraji.tutorial.springboot.hibernate.DeleteStudentDemoManyToMany" />
       <module name="spring-boot-web-application-example" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -442,8 +451,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="GetInstructorCoursesOneToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.boraji.tutorial.springboot.hibernate.GetInstructorCoursesOneToMany" />
+    <configuration name="GetCoursesDemoManyToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boraji.tutorial.springboot.hibernate.GetCoursesDemoManyToMany" />
       <module name="spring-boot-web-application-example" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -500,19 +509,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.MainApp" />
-      <item itemvalue="Application.GetInstructorCoursesOneToMany" />
-      <item itemvalue="Application.DeleteCourseOneToMany" />
-      <item itemvalue="Application.CreateCourseAndReviewsDemo" />
-      <item itemvalue="Application.GetCourseAndReviewsDemo" />
-      <item itemvalue="Application.DeleteCourseAndReviewsDemo" />
+      <item itemvalue="Application.CreateCoursesAndStudentsDemoManyToMany" />
+      <item itemvalue="Application.AddCoursesDemoManyToMany" />
+      <item itemvalue="Application.GetCoursesDemoManyToMany" />
+      <item itemvalue="Application.DeleteCoursesDemoManyToMany" />
+      <item itemvalue="Application.DeleteStudentDemoManyToMany" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeleteCourseAndReviewsDemo" />
-        <item itemvalue="Application.GetCourseAndReviewsDemo" />
-        <item itemvalue="Application.CreateCourseAndReviewsDemo" />
-        <item itemvalue="Application.GetInstructorCoursesOneToMany" />
-        <item itemvalue="Application.DeleteCourseOneToMany" />
+        <item itemvalue="Application.DeleteStudentDemoManyToMany" />
+        <item itemvalue="Application.DeleteCoursesDemoManyToMany" />
+        <item itemvalue="Application.GetCoursesDemoManyToMany" />
+        <item itemvalue="Application.AddCoursesDemoManyToMany" />
+        <item itemvalue="Application.CreateCoursesAndStudentsDemoManyToMany" />
       </list>
     </recent_temporary>
   </component>
@@ -532,7 +541,7 @@
       <workItem from="1532420283565" duration="3215000" />
       <workItem from="1532500799879" duration="2832000" />
       <workItem from="1532589861777" duration="5090000" />
-      <workItem from="1532681135606" duration="1366000" />
+      <workItem from="1532681135606" duration="6185000" />
     </task>
     <task id="LOCAL-00001" summary="Second Version">
       <created>1532074687957</created>
@@ -639,14 +648,22 @@
       <option name="project" value="LOCAL" />
       <updated>1532603337047</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="One to Many relation with Hibernate and Entities have been updated">
+      <created>1532682515865</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1532682515865</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46120000" />
+    <option name="totallyTimeSpent" value="50939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -665,8 +682,8 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3225058" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33410674" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3225058" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.33410674" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Persistence" order="2" side_tool="true" />
@@ -752,52 +769,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/controller/Student2Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/controller/SillyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1f8a638c-2199-468b-9810-a707fc7a4e55/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/TestJDBC.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/UpdateStudentDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="91" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://f8c56aac-864a-4d07-b9b3-e79e8b26db2d/schema/hb_student_tracker/table/student">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -809,6 +780,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -830,13 +804,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -905,13 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/InstructorDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="131" selection-start-line="23" selection-start-column="131" selection-end-line="23" selection-end-column="131" />
         </state>
       </provider>
     </entry>
@@ -1011,16 +974,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c1b7a355-f4ed-4c61-90d2-05335c41cfb4/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Instructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernateRelationOneToManyUni.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1028,27 +981,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Review.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/CreateCourseAndReviewsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1063,6 +999,114 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Instructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/InstructorDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="131" selection-start-line="23" selection-start-column="131" selection-end-line="23" selection-end-column="131" />
+          <folding>
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e5088557-4d9c-4d51-9dbf-cf3a99d2de44/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernateRelationManyToMany.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/CreateCourseAndReviewsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="139" lean-forward="true" selection-start-line="24" selection-end-line="26" selection-end-column="139" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/AddCoursesDemoManyToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/CreateCoursesAndStudentsDemoManyToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/GetCoursesDemoManyToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/DeleteCoursesDemoManyToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boraji/tutorial/springboot/hibernate/DeleteStudentDemoManyToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
         </state>
       </provider>
     </entry>
